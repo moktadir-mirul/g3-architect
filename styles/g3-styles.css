@@ -147,9 +147,8 @@
 .feature-c-container {
     width: 80%;
     margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    gap: 10px;
+    display: flex;
+    justify-content: space-between;
 }
 .f-c-hd {
     color: rgb(19, 19, 19);
@@ -173,10 +172,11 @@
     letter-spacing: 0%;
     text-align: left;
     margin-bottom: 30px;
+    max-width: 80%;
 }
 .feature-c-img {
     width: 100%;
-    height: 70%;
+    /* height: auto; */
 }
 .feature-card {
     max-width: 80%;
@@ -185,7 +185,7 @@
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
     background: rgb(255, 255, 255);
     padding: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 .f-card-hd {
     color: rgb(19, 19, 19);
@@ -381,10 +381,13 @@
     
     /* Feature cars styles starts */
     .f-c-hd {
+        width: 80%;
+        margin: 0 auto;
         text-align: center;
     }
     .f-c-para {
         text-align: center;
+        margin: 0 auto;
     }
     .feature-card {
         margin: 0 auto;
@@ -395,7 +398,7 @@
     }
     .feature-c-container {
         width: 100%;
-        grid-template-columns: repeat(1, auto);
+        flex-direction: column;
     }
     .feature-c-img-area {
         width: 80%;
