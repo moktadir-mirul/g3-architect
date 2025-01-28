@@ -176,10 +176,10 @@
 }
 .feature-c-img {
     width: 100%;
-    height: 93%;
+    height: 70%;
 }
 .feature-card {
-    max-width: 90%;
+    max-width: 80%;
     height: auto;
     border-radius: 8px;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
@@ -282,6 +282,67 @@
     margin-bottom: 10px;
 }
 /* Fact area style ends */
+
+/* sponsor rae style starts */
+.whole-sponsor-area {
+    width: 80%;
+    margin: 80px auto;
+}
+.sponsor-text-area {
+    text-align: center;
+}
+.sponsor-text-area > h1 {
+    color: rgb(19, 19, 19);
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 53px;
+    letter-spacing: 0%;
+    margin-bottom: 20px;
+}
+.sponsor-text-area > p {
+    color: rgb(114, 114, 114);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    max-width: 60%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.sponsor-img-area {
+    display: flex;
+    justify-content: space-between;
+}
+.sponsor-img-area > img {
+    filter: grayscale(100%);
+}
+/* sponsor area style ends */
+
+/* footer area style starts */
+.footer-area {
+    width: 80%;
+    height: 100px;
+    margin: 30px auto;
+    border-radius: 8px;
+    background-color: rgb(255, 244, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-area > p {
+    color: rgb(66, 66, 66);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+/* footer area style ends */
+
+
 /* Responsive style Starts */
 @media screen and (max-width: 576px) {
     /* Navbar Area starts*/
@@ -326,6 +387,7 @@
     }
     .feature-card {
         margin: 0 auto;
+        margin-bottom: 15px;
     }
     .feature-card > h2 , .feature-card > p {
         text-align: center;
@@ -335,7 +397,7 @@
         grid-template-columns: repeat(1, auto);
     }
     .feature-c-img-area {
-        width: 90%;
+        width: 80%;
         margin: 0 auto;
     }
     .f-c-img-btn {
@@ -361,4 +423,20 @@
         width: 70%;
     }
     /* facts crad area style ends */
+
+    /* sponsor area style starts */
+    .whole-sponsor-area {
+        width: 100%;
+    }
+    .sponsor-img-area {
+        width: 90%;
+        margin: 0 auto;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .sponsor-img-area > img {
+        width: 40%;
+        margin: 0 auto;
+    }
+    /* sponsor area style ends */
 }
