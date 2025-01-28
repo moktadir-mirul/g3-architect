@@ -266,6 +266,9 @@
     .f-c-para {
         text-align: center;
     }
+    .feature-card {
+        margin: 0 auto;
+    }
     .feature-card > h2 , .feature-card > p {
         text-align: center;
     }
@@ -273,8 +276,9 @@
         width: 100%;
         grid-template-columns: repeat(1, auto);
     }
-    .feature-c-img {
+    .feature-c-img-area {
         width: 90%;
+        margin: 0 auto;
     }
     .f-c-img-btn {
         left: 30%;
